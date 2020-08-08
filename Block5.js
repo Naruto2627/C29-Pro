@@ -8,7 +8,7 @@ class Block5 {
       this.body = Bodies.rectangle(x, y,100,60, options);
       this.width = 120;
       this.height = 100;
-      this.image = loadImage("Images/red.jpg");
+      this.image = loadImage("Images/red1.jpg");
       World.add(world, this.body);
     }
     display(){
